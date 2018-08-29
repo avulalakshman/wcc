@@ -13,14 +13,14 @@ export class AppComponent {
   constructor(){
     this.initializeValues()
   }
-  happy(event){
+  happy(){
     if(!this.isSelected){
        this.up_icon="fa fa-smile-o";
        this.isSelected = true;
        this.feedback = "1";
     }
   }
-  notHappy(event){
+  notHappy(){
     if(!this.isSelected){
        this.down_icon="fal fa fa-frown-o";
        this.isSelected = true;
